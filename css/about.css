@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     /* font-family: 'Pacifico', cursive; */
-     font-family: 'Chewy', cursive;
 }
 body {
     height: 100vh;
@@ -13,14 +12,13 @@ body {
 /* NAVBAR */
 
 .nav-container {
-    /* position: absolute; */
+    font-family: 'Chewy', cursive;
     display: flex;
     align-items: center;
-    padding: 10px 30px;
+    padding: 0px 30px;
 }
 .img {
     flex: 1;
-    padding-top: 10px;
 }
 .img img {
     width: 18%;
