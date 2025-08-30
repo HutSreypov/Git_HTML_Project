@@ -12,10 +12,12 @@ body {
 /* NAVBAR */
 
 .nav-container {
+    height: 100px;
     font-family: 'Chewy', cursive;
     display: flex;
     align-items: center;
     padding: 0px 30px;
+    background-color: #fff;
 }
 .img {
     flex: 1;
@@ -37,4 +39,17 @@ ul li a {
 a:hover {
     color: #FF7AA2;
     text-decoration: underline;
+}
+main{
+    height: 600px;
+    background-color:  #F5F2E9;
+    display: flex;
+}
+.main-L{
+    background-color: rebeccapurple;
+    flex: 1;
+}
+.main-R{
+    background-color: rgb(143, 122, 163);
+    flex: 1;
 }
