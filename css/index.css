@@ -134,6 +134,31 @@ a:hover {
 }
 
 
+/* ================== FOOTER ================== */
+.footer-container{
+    background: #F5F2E9;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    height: 40vh;
+} 
+.footer-container p{
+    font-size: 18px;
+}
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 28px;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 26px;
+}
+
 /* ================== GROUP STYLE ================== */
 .home-h2 {
     margin-bottom: 40px;
