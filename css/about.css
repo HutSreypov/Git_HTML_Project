@@ -26,6 +26,7 @@ body {
 
 .img img {
     width: 18%;
+     padding: 4px 10px;
 }
 
 ul {
