@@ -77,16 +77,17 @@ a:hover {
 
 
 /* ================== (SEC1) BEST SELLER ================== */
-.home-sec1-container {
+.home-sec1-container ,
+.home-sec2-container {
     padding: 100px 80px;
 }
 
-.home-sec1-card-container{
+.home-card-container{
     display: flex;
     justify-content: space-between;
 }
-.home-sec1-card {
-    width: 300px;
+.home-card {
+    width: 22%;
     text-align: center;
     background-color:  #ffff;
     border-radius: 15px;
@@ -95,29 +96,29 @@ a:hover {
     transition: transform 0.3s ease;
 }
 
-.home-sec1-card:hover {
+.home-card:hover {
     transform: translateY(-8px);
 }
 
-.home-sec1-card img {
+.home-card img {
     width: 90%;
     height: 200px;
     padding: 15px 15px 0px 15px;
     border-radius: 15px 15px 0px 0px;
 }
 
-.home-sec1-card h3 {
+.home-card h3 {
     margin: 15px 10px;
 }
 
-.home-sec1-card p {
+.home-card p {
     font-size: 1rem;
     color: #555;
     padding: 0 15px;
     margin-bottom: 15px;
 }
 
-.home-sec1-card-price {
+.home-card-price {
     font-size: 1.2rem;
     color: #d2691e;
     font-weight: bold;
