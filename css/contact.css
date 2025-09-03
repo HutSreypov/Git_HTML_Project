@@ -19,16 +19,16 @@ body {
     position: fixed;
     width: 100%;
     z-index: 1;
-    background: #F5F2E9;
+    background: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .img {
-    flex: 1;
+    flex: 0.8;
 }
 
 .img img {
-    width: 18%;
+    width: 16%;
     padding: 4px 10px;
 }
 
@@ -125,7 +125,7 @@ input {
 }
 
 .form p {
-    background: rgba(0, 128, 0, 0.699);
+    background: #d2691e;
     padding: 10px;
     width: 12%;
     color: white;
@@ -135,6 +135,7 @@ input {
 }
 
 .form p:hover {
+    color: #a0522d;
     background: pink;
     transform: translateY(-7px);
     transition: .5s;
