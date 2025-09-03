@@ -82,7 +82,8 @@ a:hover {
 
 /* ================== (SEC1) BEST SELLER ================== */
 .home-sec1-container ,
-.home-sec2-container {
+.home-sec2-container ,
+.home-sec3-container {
     padding: 100px 80px;
 }
 
@@ -127,6 +128,19 @@ a:hover {
     color: #d2691e;
     font-weight: bold;
     margin-bottom: 15px;
+}
+.home-card-dis-price {
+    display: flex;
+    justify-content: center;
+}
+.home-card-dis-price p {
+    font-size: 1.2rem;
+    color: #d2691e;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.dis-price{
+    text-decoration: line-through;
 }
 
 .home-btn {
