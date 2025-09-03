@@ -151,6 +151,9 @@ a:hover {
 .footer-container p{
     font-size: 18px;
 }
+.footer-container h2{
+    color: rgb(248, 102, 126)
+}
 .footer-1{
     display: flex;
     flex-direction: column;
@@ -164,7 +167,6 @@ a:hover {
     gap: 20px;
     font-size: 26px;
 }
-
 /* ================== GROUP STYLE ================== */
 .home-h2 {
     margin-bottom: 40px;
