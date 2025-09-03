@@ -18,15 +18,22 @@ body {
     display: flex;
     align-items: center;
     padding: 0px 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: white;
 }
 
+/* .nav-main{
+    margin-top: 100px;
+} */
 .img {
     flex: 1;
 }
 
 .img img {
     width: 18%;
-     padding: 4px 10px;
+    padding: 4px 10px;
 }
 
 ul {
@@ -77,14 +84,15 @@ a:hover {
 
 header {
     /* background-color: #ffb6c1; */
+    height: 30vh;
     background: #F5F2E9;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 
-header h1{
-    margin: 0;
+header h1 {
+    margin-top: 150px;
     font-size: 2.5em;
     color: rgb(248, 102, 126)
 }
@@ -118,6 +126,10 @@ header h1{
     max-width: 500px;
     height: auto;
     border-radius: 8px;
+}
+.top-image:hover {
+    transform: translateY(-7px);
+    transition: .5s;
 }
 
 .card {
@@ -160,8 +172,6 @@ header h1{
 /* mew */
 
 .mission-values {
-    /* background: #fff8f2; */
-    /* soft pastel background */
     padding: 60px 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -171,7 +181,6 @@ header h1{
     font-size: 28px;
     margin-bottom: 15px;
     color: brown;
-    /* cake-like warm color */
 }
 
 .mission-values p {
@@ -200,10 +209,11 @@ header h1{
 
 }
 
-.value-box h3{
-     color: #d17a5a;
+.value-box h3 {
+    color: #d17a5a;
 }
-.product-owner-info h1{
+
+.product-owner-info h1 {
     text-align: center;
     color: brown;
 }
@@ -214,6 +224,7 @@ header h1{
     justify-content: center;
     gap: 65px;
     margin-top: 20px;
+
 }
 
 .value-boxss {
@@ -221,12 +232,16 @@ header h1{
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 300px;
-    transition: transform 0.3s ease;
- 
 
 }
+
 .value-box:hover {
     transform: translateY(-5px);
+}
+
+.value-boxss:hover {
+    transform: translateY(-7px);
+    transition: .5s;
 }
 
 .value-box h3 {
@@ -241,7 +256,8 @@ header h1{
     margin-left: 40px;
     border-radius: 10px;
 }
-.info-owner{
+
+.info-owner {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -268,6 +284,11 @@ header h1{
     flex-direction: column;
     gap: 16px;
     margin-top: 28px;
+
+}
+
+.footer-1 h2 {
+    color: rgb(247, 76, 133);
 }
 
 .footer-icon {
