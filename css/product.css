@@ -31,7 +31,7 @@ body {
 
 .img img {
     padding: 4px 10px;
-    width: 18%;
+    width: 16%;
 }
 
 ul {
@@ -169,6 +169,7 @@ a:hover {
 .center {
     display: flex;
     justify-content: center;
+
 }
 
 .product-center {
@@ -503,7 +504,17 @@ section h1 {
     transform: translateY(-7px);
     transition: .5s;
 }
-
+.card-last{
+    display: flex;
+    width: 44%;
+    background: #000;
+    gap: 40px;
+}
+.card-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* FOOTER */
 .footer-container{
     background: #F5F2E9;
