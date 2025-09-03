@@ -527,7 +527,8 @@ section h1 {
     font-size: 18px;
 }
 .footer-container h2{
-    color: rgb(248, 102, 126)
+    color: rgb(248, 102, 126);
+    font-family: 'Chewy', cursive;
 }
 .footer-1{
     display: flex;
@@ -541,4 +542,11 @@ section h1 {
     justify-content: center;
     gap: 20px;
     font-size: 26px;
+}
+
+
+/* ACTIVE */
+
+#Active{
+    color: rgb(248, 102, 126);
 }
