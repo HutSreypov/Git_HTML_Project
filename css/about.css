@@ -22,17 +22,18 @@ body {
     width: 100%;
     z-index: 1;
     background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* .nav-main{
     margin-top: 100px;
 } */
 .img {
-    flex: 1;
+    flex: 0.8;
 }
 
 .img img {
-    width: 18%;
+    width: 16%;
     padding: 4px 10px;
 }
 
