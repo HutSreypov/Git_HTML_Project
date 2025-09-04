@@ -50,6 +50,10 @@ ul li a {
     color: #7B3F00;
 }
 
+#Active{
+    color: rgb(248, 102, 126);
+}
+
 a:hover {
     color: #FF7AA2;
     text-decoration: underline;

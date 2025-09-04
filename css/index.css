@@ -40,6 +40,9 @@ a:hover {
     color: #FF7AA2;
     text-decoration: underline;
 }
+#Active{
+    color: rgb(248, 102, 126);
+}
 /* ================== HOME MAIN ================== */
 .main-container{
     height: 600px;
@@ -173,6 +176,9 @@ a:hover {
     flex-direction: column;
     gap: 16px;
     margin-top: 28px;
+}
+.footer-1 h2 {
+    font-family: 'Chewy', cursive;
 }
 .footer-icon{
     display: flex;
