@@ -52,8 +52,8 @@ a:hover {
 
 /* CONTACT */
 
-.contact-section{
-    height: 100vh; 
+.contact-section {
+    height: 100vh;
 }
 
 .email {
@@ -203,6 +203,90 @@ textarea:hover {
     font-family: 'Chewy', cursive;
 }
 
-#Active{
+#Active {
     color: rgb(248, 102, 126);
+}
+
+@media(max-width:890px) and (min-width:700px) {
+    .img img {
+        padding: 10px;
+        width: 20%;
+    }
+
+    ul {
+        gap: 35px;
+    }
+
+    ul li a {
+        font-size: 24px;
+    }
+
+    .first {
+        width: 44%;
+    }
+
+    .footer-container {
+        height: 30vh;
+    }
+
+    .form p {
+        width: 18%;
+    }
+
+    .contact-section {
+        height: 64vh;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media(max-width:600px) and (min-width:300px) {
+    .img img {
+        padding: 0px;
+        width: 44%;
+    }
+
+    ul {
+        gap: 18px;
+        padding-right: 70px;
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+
+    .first {
+        width: 44%;
+    }
+
+    .footer-container p {
+        font-size: 14px;
+    }
+
+    .footer-container h2 {
+        font-size: 15px;
+    }
+
+    .footer-icon {
+        font-size: 20px;
+    }
+
+    .form p {
+        width: 18%;
+    }
+
+    .contact-section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .contant {
+        display: none;
+    }
+    .form {
+        width: 100%;
+        padding: 20px;
+       box-shadow: none;
+    }
 }
