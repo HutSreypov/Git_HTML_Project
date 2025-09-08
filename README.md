@@ -77,8 +77,73 @@ This website is really easy to use. It is useful and good for everyone to use. T
 
 ### ℹ️ About Page
 
+#### for about page we have:
+- NavBar
+
+```
+- Logo
+- Menu page
+```
+- Header
+```
+- Name of product
+```
+- Section
+```
+- Text of our product
+- Picture and text describe of our product
+- Mission of our product and also have text
+- The header of our values and also have text to descibe of our values
+- Card of Values
+```
+![Dashboard](img/image1.png)
+
+```
+- Card of product owner
+```
+
+![Dashboard](img/image2.png)
+
+- Footer
+```
+- Show about the app that can contact to us
+(Facebook, Instagram, Telegram)
+- Tell about type of product (Brownise Cookies Braed Cake)
+- Name of product owner
+(Nang Chhitchhanut, Hut Sreypov, Lek Sinat)
+```
+![Dashboard](img/image3.png)
+
 
 ### 📞 Contact Page
+
+#### for contact page we have:
+- NavBar
+
+```
+- Logo
+- Menu page
+```
+
+- Section 
+```
+- Address
+- Give the email
+- Phone number
+- The date and time that our shop open
+- Link address
+```
+![Dashboard](img/image4.png)
+
+- Footer
+```
+- Show about the app that can contact to us
+(Facebook, Instagram, Telegram)
+- Tell about type of product (Brownise Cookies Braed Cake)
+- Name of product owner
+(Nang Chhitchhanut, Hut Sreypov, Lek Sinat)
+```
+![Dashboard](img/image3.png)
 
 
 ## Technologies Used
