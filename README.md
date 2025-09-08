@@ -39,9 +39,41 @@ This website is really easy to use. It is useful and good for everyone to use. T
 
 ### 🏠 Home Page
 
+#### Feature
+- Navigation Bar: can bring you to other pages
+- Welcome section: Display text and picture
+- Disount section: Display discount product's picture, description, price before discount, and price after discount in a card collection
+- Best seller section: Display best seller product's picture, description, and price in a card collection
+- New product section: Display new product's picture, description, and price in a card collection
+- Footer: Display some information
+
+#### Screenshort
+![Screenshot](img/h-ss-1.png)
+![Screenshot](img/h-ss-2.png)
+![Screenshot](img/h-ss-3.png)
+![Screenshot](img/h-ss-4.png)
+![Screenshot](img/h-ss-5.png)
 
 ### 🛒 Products Page
 
+#### Feature
+- Navigation Bar: can bring you to other pages
+- Welcome section: Display text and picture
+- New product section: Display new product's picture, description, and price in a card collection
+- Disount section: Display some picture with some text
+- Our product section: Display all product's picture, description, and price in a card collection
+- Footer: Display some information
+
+#### Screenshort
+![Screenshot](img/p-ss-1.png)
+![Screenshot](img/p-ss-2.png)
+![Screenshot](img/p-ss-3.png)
+![Screenshot](img/p-ss-4.png)
+![Screenshot](img/p-ss-5.png)
+![Screenshot](img/p-ss-6.png)
+![Screenshot](img/p-ss-7.png)
+![Screenshot](img/p-ss-8.png)
+![Screenshot](img/p-ss-9.png)
 
 ### ℹ️ About Page
 
