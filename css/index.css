@@ -282,12 +282,14 @@ a:hover {
     }
 
     .main-L h1 {
-        font-size: 20px;
+        font-size: 24px;
         padding-left: 20px;
     }
 
     .main-R img {
-        width: 80%;
+        width: 50%;
+        padding-left: 100px;
+
     }
 
     .main-L p {
@@ -296,23 +298,34 @@ a:hover {
 
     .main-container {
         height: 44vh;
+        flex-direction: column-reverse;
     }
+
     .home-card-container {
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
     }
+
     .home-card {
         width: 100%;
         height: 60vh;
     }
-     .footer-container p {
+
+    .footer-container p {
         font-size: 14px;
     }
+
     .footer-container h2 {
         font-size: 15px;
     }
+
     .footer-icon {
         font-size: 20px;
+    }
+    .home-sec1-container,
+    .home-sec2-container,
+    .home-sec3-container {
+        padding: 100px 20px;
     }
 }
