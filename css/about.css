@@ -321,9 +321,9 @@ header h1 {
 }
 
 @media (max-width: 600px) and (min-width: 300px) {
-        .img img {
+    .img img {
         padding: 0px;
-        width: 50%;
+        width: 44%;
     }
 
     ul {
@@ -333,14 +333,6 @@ header h1 {
 
     ul li a {
         font-size: 14px;
-    }
-    .nav-container {
-        width: 100%;
-        height: 10%;
-    }
-
-    header {
-        height: 30vh;
     }
 
     header h1 {
@@ -380,10 +372,7 @@ header h1 {
     }
 
     .footer-container {
-        /* background: #F5F2E9;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        text-align: center; */
+
         height: 30vh;
         margin-top: 50px;
 
@@ -392,24 +381,17 @@ header h1 {
 }
 
 @media (max-width: 890px) and (min-width: 700px) {
-    .nav-container {
-
-        height: 10%;
-        padding: 0px 10px 0px 10px;
+      .img img {
+        padding: 10px;
+        width: 20%;
     }
 
-    .img img {
-        width: 36%;
-        padding: 10px 20px;
+    ul {
+        gap: 35px;
     }
 
-    header {
-        /* background-color: #ffb6c1; */
-        height: 25vh;
-        /* background: #F5F2E9;
-        color: #fff;
-        padding: 20px 0;
-        text-align: center; */
+    ul li a {
+        font-size: 24px;
     }
 
     .para {
@@ -418,8 +400,6 @@ header h1 {
 
     .card {
         width: 45%;
-        /* height: 20%; */
-        /* margin-right: 20px; */
     }
 
     .shop-mission {
@@ -429,13 +409,9 @@ header h1 {
     }
 
     .footer-container {
-        /* background: #F5F2E9;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        text-align: center; */
         height: 30vh;
         padding-top: 30px;
-        /* margin-top: 80px; */
+ 
 
     }
 }
